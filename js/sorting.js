@@ -65,3 +65,4 @@ insertionSortBtn.addEventListener("click",()=>{
 
 //create Bars when page loads
 createBars(array_size.value);
+

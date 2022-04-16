@@ -20,7 +20,7 @@ async function insertionSort(barsArray) {
             barsArray[j+1].style.background = "#ffd000";
             barsArray[j].style.background = "#0072ff";
             await new Promise(resolve => setTimeout(resolve, delay));
-
+ 
             j--;
         
             // change the color of the first bar smaller or equal to the key's bar
